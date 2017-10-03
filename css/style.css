@@ -1,26 +1,38 @@
+h1, h2, h3, h5, h6{
+  font-family: 'Roboto', sans-serif;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+}
 .header {
   background-image: url("../img/header.jpeg");
   background-repeat: no-repeat;
   background-size: cover; /* or contain depending on what you want */
   background-position: center center;
   background-repeat: no-repeat;
-  width: 100%;
   height: 100vh;
-  text-align:center;
-  margin:auto;
-  overflow:auto;
 }
 .header h1 {
-  font-family: 'Roboto', sans-serif;
+  color: white;
+  margin: 10px;
+}
+.header i {
   color: white;
   margin: 10px;
 }
 .header p {
-  font-family: 'Open Sans', sans-serif;
   color: white;
   max-width: 600px;
   margin:0 auto;
 }
-.test {
-  margin: 50px;
+.logo {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.info-image {
+  padding: 0px;
+}
+.info-text {
+  margin-bottom: 0.5rem;
+  margin-top: 1.5rem;
 }

@@ -9,28 +9,77 @@
 
   <title>Webdesign site</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
-    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
   <link href="css/style.css" rel="stylesheet">
   <link href="css/responsivetype.css" rel="stylesheet">
   
+  <script src="https://use.fontawesome.com/f44264bd94.js"></script>
 </head>
 
 <body>
-  <div class="header">
-    <div class="test">
-        <img class="img-fluid logo" src="img/logo.png" alt="logo">
+  <div class="header container-fluid">
+    <div class="row text-center">
+      <div class="col-md-12">
+          <div class="logo">
+              <img class="img-fluid" src="img/logo.png" alt="logo">
+          </div>
+      </div>
     </div>
-    <h1 class="display-3">Informatica</h1>
-    <p>Deze website hebben wij gemaakt om mensen zoals jij beter in te lichten over de opleiding informatica. Samen met de kennis die wij hebben opgedaan in de lessen Webdesign en Studievaardigheden hebben wij deze website gebouwd. Ik hoop dat het je geïnteresseerd maakt!</p>
-    <button type="button" class="btn btn-outline-primary">Check Avans</button>
-    <button type="button" class="btn btn-outline-primary">Chech de opleiding</button>
+    <div class="row text-center">
+      <div class="col-md-12">
+          <h1 class="display-3">Informatica</h1>
+          <p>Deze website hebben wij gemaakt om mensen zoals jij beter in te lichten over de opleiding informatica. Samen met de kennis die wij hebben opgedaan in de lessen Webdesign en Studievaardigheden hebben wij deze website gebouwd. Ik hoop dat het je geïnteresseerd maakt!</p>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-12">
+          <a href="http://www.avans.nl" class="btn btn-outline-primary">Check Avans</a>
+          <a href="http://www.avans.nl/opleidingen/opleidingzoeker/informatica-breda-voltijd-bachelor/introductie" class="btn btn-outline-primary">Check de opleiding</a>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-12">
+        <i id="arrow" class="fa fa-angle-double-down fa-5x" aria-hidden="true"></i>
+      </div>
+    </div>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <div class="container-fluid" id="scroll">
+    <div class="row no-gutter align-items-center">
+      <div class="col-md-4 order-md-1">
+        <div class="row justify-content-center info-text">
+            <div class="col-10">
+              <a href="info1.html">Lees meer</a>
+              <h2>Informatica</h2>
+              <p>Wat is de opleiding informatica en zij er opleidingen die er op lijken?</p>
+            </div>
+          </div>
+      </div>
+      <div class="col-md-8 info-image order-md-2">
+          <img src="img/info1.jpeg" alt="Info1" class="img-fluid">
+      </div>
+    </div>
+    <div class="row no-gutter align-items-center">
+      <div class="col-md-4 order-md-2">
+        <div class="row justify-content-center info-text">
+          <div class="col-10">
+            <a href="info2.html">Lees meer</a>
+            <h2>Wat leer ik?</h2>
+            <p>Welke vakken volg je en wat doe je nu allemaal op school?</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8 info-image order-md-1">
+        <img src="img/info2.jpeg" alt="Info1" class="img-fluid">
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script src="js/scroll.js"></script>
 </body>
 
 </html>
