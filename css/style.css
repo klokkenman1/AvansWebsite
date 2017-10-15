@@ -53,6 +53,21 @@ p {
   line-height: 60px;
   background-color: #f5f5f5;
 }
-.footer.not-full {
-  bottom: 0;
+
+.table {
+  font-size: 12px;
+  border: 1px solid #CCC; 
+} 
+.table td {
+  padding: 4px;
+  margin: 3px;
+  border: 1px solid #CCC;
+}
+.table th {
+  background-color: rgb(32, 35, 37); 
+  color: #FFF;
+  font-weight: bold;
+}
+.green {
+  background: green;
 }
