@@ -7,10 +7,26 @@ p {
 .header {
   background-image: url("../img/header.jpeg");
   background-repeat: no-repeat;
-  background-size: cover; /* or contain depending on what you want */
+  background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
   height: 100vh;
+}
+.header.info1 {
+  background-image: url("../img/info1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+.header.info2 {
+  background-image: url("../img/info2.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 400px;
 }
 .header h1 {
   color: white;
